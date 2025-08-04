@@ -1,0 +1,27 @@
+$ sudo nmap -sS -T5 45.33.32.156 
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-08-04 10:22 EDT
+Stats: 0:00:18 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 68.87% done; ETC: 10:22 (0:00:08 remaining)
+Stats: 0:00:18 elapsed; 0 hosts completed (1 up), 1 undergoing SYN Stealth Scan
+SYN Stealth Scan Timing: About 69.20% done; ETC: 10:22 (0:00:08 remaining)
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.051s latency).
+Not shown: 985 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+22/tcp    open   ssh
+80/tcp    open   http
+1025/tcp  closed NFS-or-IIS
+1063/tcp  closed kyoceranetdev
+1064/tcp  closed jstel
+1556/tcp  closed veritas_pbx
+1687/tcp  closed nsjtp-ctrl
+3168/tcp  closed poweronnud
+3690/tcp  closed svn
+4444/tcp  closed krb524                                                                                                                                                                                                                     
+7025/tcp  closed vmsvc-2                                                                                                                                                                                                                    
+9929/tcp  open   nping-echo                                                                                                                                                                                                                 
+31337/tcp open   Elite                                                                                                                                                                                                                      
+32783/tcp closed unknown                                                                                                                                                                                                                    
+60443/tcp closed unknown                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                            
+Nmap done: 1 IP address (1 host up) scanned in 26.62 seconds 
